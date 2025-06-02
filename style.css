@@ -1,0 +1,59 @@
+body{
+    padding: 30px;
+    display: flex;
+    justify-content: center; /* Centrage horizontal */
+    align-items: center; /* Centrage vertical */
+    height: 100vh; /* Occupe toute la hauteur de la fenêtre */
+    margin: 0;
+}
+h1{
+    text-align: center;
+    text-shadow: 5px 2px 5px gray;
+}
+#calculatrice{
+    border: 5px solid #000000;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+    display: grid;
+    justify-content: center;
+    background: bisque;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+}
+#ecran{
+    width: 250px;
+    margin: 5px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: floralwhite;
+}
+.vag1, .vag2, .vag3, .vag4, .vag5{
+    display: flex;
+}
+p{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 25px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+p:hover{
+    background: gray;
+}
+p img{
+    height: 20px;
+    width: 20px;
+}
+.touchegal{
+    background-color: #0ecbf6;
+}
+.touchegal:hover{
+    width: 30px;
+}
+.touchsup{
+    background-color: rgba(255, 0, 0, 0.47);
+}
